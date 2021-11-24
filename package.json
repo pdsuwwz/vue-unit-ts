@@ -1,5 +1,5 @@
 {
-  "name": "vue-unit",
+  "name": "vue-unit-ts",
   "description": "Unit Test for Vue",
   "version": "0.0.1",
   "author": "Wisdom <pdsu.wwz@foxmail.com>",
@@ -13,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pdsuwwz/vue-unit"
+    "url": "git+https://github.com/pdsuwwz/vue-unit-ts"
   },
   "bugs": {
-    "url": "https://github.com/pdsuwwz/vue-unit/issues"
+    "url": "https://github.com/pdsuwwz/vue-unit-ts/issues"
   },
   "dependencies": {
     "vue": "^3.2.16"
