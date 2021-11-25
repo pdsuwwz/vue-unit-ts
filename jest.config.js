@@ -1,16 +1,17 @@
 module.exports = {
   testEnvironment: 'jsdom',
 
-  moduleFileExtensions: ["js", "vue"],
+  moduleFileExtensions: ["js", "ts", "vue"],
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/src/$1"
   },
 
-  testMatch: ['<rootDir>/__tests__/**/*.spec.js'],
+  testMatch: ['<rootDir>/__tests__/**/*.spec.(js|ts)'],
   transformIgnorePatterns: ['/node_modules/'],
   transform: {
-    '^.+\\.js$': 'babel-jest',
+    // '^.+\\.js$': 'babel-jest',
     '^.+\\.(vue)$': '@vue/vue3-jest',
+    '^.+\\.ts$': 'ts-jest',
     '.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$': 'jest-transform-stub'
   },
 
