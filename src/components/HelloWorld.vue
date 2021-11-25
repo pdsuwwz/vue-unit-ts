@@ -1,15 +1,22 @@
-<script setup>
+<script setup lang="ts">
 import { ref } from 'vue'
 
-defineProps({
-  msg: String
-})
+interface Props {
+  msg: string
+}
+
+const props = withDefaults(
+  defineProps<Props>(), 
+  {
+    msg: '',
+  }
+)
 
 const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+  <h1>{{ props.msg }}</h1>
 
   <p>
     Recommended IDE setup:

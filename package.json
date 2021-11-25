@@ -21,6 +21,9 @@
   "dependencies": {
     "vue": "^3.2.16"
   },
+  "engines": {
+    "node": ">=14"
+  },
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
