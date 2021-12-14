@@ -1,4 +1,4 @@
-import { mount, shallowMount } from '@vue/test-utils'
+import { mount } from '@vue/test-utils'
 import HelloWorld from '@/components/HelloWorld.vue'
 
 describe('test hello world', () => {
@@ -8,7 +8,7 @@ describe('test hello world', () => {
         msg: 'Hello world'
       }
     })
-  
+
     // Assert the rendered text of the component
     expect(wrapper.text()).toContain('Hello world')
   })
