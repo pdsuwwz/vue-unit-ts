@@ -9,9 +9,8 @@ module.exports = {
   testMatch: ['<rootDir>/__tests__/**/*.spec.(js|ts)'],
   transformIgnorePatterns: ['/node_modules/'],
   transform: {
-    // '^.+\\.js$': 'babel-jest',
+    '^.+\\.(js|ts)$': '@sucrase/jest-plugin',
     '^.+\\.(vue)$': '@vue/vue3-jest',
-    '^.+\\.ts$': 'ts-jest',
     '.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$': 'jest-transform-stub'
   },
 
