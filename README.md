@@ -8,4 +8,43 @@
 [![Author](https://img.shields.io/badge/Author-Wisdom-9cf)](https://github.com/pdsuwwz)
 [![License](https://img.shields.io/github/license/pdsuwwz/vite-starter?color=blue)](https://github.com/pdsuwwz/vite-starter/blob/master/LICENSE)
 
-Unit Testing for Vue 3.x + TS
+Unit Testing for Vite 3.x + Vue 3.x + Jest 28.x + TS
+
+
+## Environment Support
+
+* Node >= 14.18.x
+
+## Install
+
+Install node dependencies in all packages
+
+```bash
+pnpm install
+```
+
+## Run
+
+Local Development
+
+```bash
+pnpm dev
+```
+
+## Test
+
+Unit Testing
+
+```bash
+pnpm test
+```
+
+Test code coverage
+
+```bash
+pnpm test:coverage
+```
+
+## 😎 Awesome
+
+* [awesome-vite](https://github.com/pdsuwwz/awesome-vite)
