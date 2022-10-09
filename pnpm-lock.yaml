@@ -20,7 +20,7 @@ specifiers:
   jest: ^29.0.1
   jest-environment-jsdom: 29.1.2
   jest-transform-stub: ^2.0.0
-  ts-jest: 29.0.2
+  ts-jest: 29.0.3
   typescript: ^4.8.2
   vite: ^3.0.9
   vue: ^3.2.38
@@ -49,7 +49,7 @@ devDependencies:
   jest: 29.0.1_@types+node@17.0.45
   jest-environment-jsdom: 29.1.2
   jest-transform-stub: 2.0.0
-  ts-jest: 29.0.2_bzisjvgp2eafc7wkaup6yhb3ui
+  ts-jest: 29.0.3_bzisjvgp2eafc7wkaup6yhb3ui
   typescript: 4.8.2
   vite: 3.0.9
   vue-tsc: 0.40.13_typescript@4.8.2
@@ -5135,8 +5135,8 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /ts-jest/29.0.2_bzisjvgp2eafc7wkaup6yhb3ui:
-    resolution: {integrity: sha512-P03IUItnAjG6RkJXtjjD5pu0TryQFOwcb1YKmW63rO19V0UFqL3wiXZrmR5D7qYjI98btzIOAcYafLZ0GHAcQg==}
+  /ts-jest/29.0.3_bzisjvgp2eafc7wkaup6yhb3ui:
+    resolution: {integrity: sha512-Ibygvmuyq1qp/z3yTh9QTwVVAbFdDy/+4BtIQR2sp6baF2SJU/8CKK/hhnGIDY2L90Az2jIqTwZPnN2p+BweiQ==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     hasBin: true
     peerDependencies:
