@@ -8,7 +8,7 @@
 [![Author](https://img.shields.io/badge/Author-Wisdom-9cf)](https://github.com/pdsuwwz)
 [![License](https://img.shields.io/github/license/pdsuwwz/vite-starter?color=blue)](https://github.com/pdsuwwz/vite-starter/blob/master/LICENSE)
 
-Unit Testing for Vite 3.x + Vue 3.x + Jest 28.x + TS
+Unit Testing for Vite 4.x + Vue 3.x + Jest 29.x + TS
 
 
 ## Environment Support
