@@ -5,12 +5,11 @@ interface Props {
   msg: string
 }
 
-const props = withDefaults(
-  defineProps<Props>(),
-  {
-    msg: ''
-  }
-)
+defineOptions({
+  name: 'HelloWorld'
+})
+
+const props = defineProps<Props>()
 
 const isProd = import.meta.env.PROD
 const count = ref(0)
