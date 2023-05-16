@@ -8,12 +8,12 @@
 [![Author](https://img.shields.io/badge/Author-Wisdom-9cf)](https://github.com/pdsuwwz)
 [![License](https://img.shields.io/github/license/pdsuwwz/vite-starter?color=blue)](https://github.com/pdsuwwz/vite-starter/blob/master/LICENSE)
 
-Unit Testing for Vite 4.x + Vue 3.x + TypeScript + Jest 29.x
+Unit Testing for Vite 4.x + Vue 3.3 + TypeScript + Jest 29.x
 
 
 ## Environment Support
 
-* Node >= 14.18.x
+* Node >= 16.15.x
 
 ## Install
 
